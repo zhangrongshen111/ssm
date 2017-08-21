@@ -6,7 +6,6 @@
 <form action="${pageContext.request.contextPath}/user/userInfo" method="post">
     <input type="text" name="Id">
     <input type="submit" value="提交">
-
 </form>
 </body>
 </html>

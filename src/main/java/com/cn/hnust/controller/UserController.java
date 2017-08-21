@@ -33,6 +33,8 @@ public class UserController {
 		System.out.println("进入了。。。。。。。。。");
 		System.out.println("进入了。。。。。。。。。");
 		System.out.println("1111111111111111111");
+		System.out.println("zrs=============");
+		System.out.println("zrs1=============");
 		User user = this.userService.getUserById(Id);
 		model.addAttribute("user", user);
 		return "userInfo";
