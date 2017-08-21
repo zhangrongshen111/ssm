@@ -30,6 +30,7 @@ public class UserController {
 	public String userInfo(@RequestParam int Id, Model model){
 //		int userId = Integer.parseInt(request.getParameter("id"));
 		System.out.println("进入了。。。。。。。。。");
+		System.out.println("进入了。。。。。。。。。");
 		User user = this.userService.getUserById(Id);
 		model.addAttribute("user", user);
 		return "userInfo";
